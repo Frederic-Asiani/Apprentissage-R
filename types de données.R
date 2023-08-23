@@ -24,7 +24,6 @@ levels(f)
 # array
 g <- array(c(1,2,3,4,5,6,7,8,9), dim = c(3,3))
 
-
 ######
 # on peut specifier le format de chaque colonne
 suspects <- read_csv(
@@ -191,7 +190,6 @@ str_subset(strings, phone)
 
 str_count(strings, phone)
 
-
 # str_extract()
 str_extract(strings, phone)
 
@@ -205,7 +203,6 @@ str_replace_all(strings, phone, "XXX-XXX-XXXX")
 str_split("a-b-c", "-")
 
 # Découverte des fonctions disponibles avec le package stringr et mise en pratique sur des données réelles
-
 
 # str_length("abc")
 
@@ -235,7 +232,6 @@ x <- c("Short", "This is a long string")
 x %>% 
   str_trunc(10) %>% 
   str_pad(10, "right")
-
 
 # The opposite of str_pad() is str_trim(), which removes leading and trailing whitespace:
   
@@ -272,7 +268,6 @@ str_to_lower(x)
 
 str_to_lower(x, "tr")
 
-
 # String ordering and sorting:
   
 x <- c("y", "i", "k")
@@ -281,7 +276,6 @@ str_order(x)
 str_sort(x)
 
 str_sort(x, locale = "lt")
-
 
 #The locale always defaults to English to ensure that the default behaviour is identical across systems. Locales always include a two letter ISO-639-1 language code (like “en” for English or “zh” for Chinese), and optionally a ISO-3166 country code (like “en_UK” vs “en_US”). You can see a complete list of available locales by running stringi::stri_locale_list().
 
@@ -440,9 +434,7 @@ df[1, 2]
 df[2, 1]
 df[2, 2]
 
-# Découverte des relations d’ordre ( > < <= >= ) et maitrise des opérations logiques ( & |) 
-
-# ---------
+# Découverte des relations d’ordre ( > < <= >= ) et maitrise des opérations logiques ( & |) # ---------
 
 # relation d'ordre
 
@@ -465,7 +457,6 @@ df[2, 2]
 # 1 | 1 -> TRUE
 # 1 & 1 -> TRUE
 # 1 & 0 -> FALSE
-
 
 # Utile dans les filtres
 
