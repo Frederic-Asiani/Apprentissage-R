@@ -91,5 +91,3 @@ The R software is a programming and statistical analysis environment widely used
     - R enables collaboration by sharing code, packages, and analyses.
 
 In summary, the R software is a powerful tool for statistical analysis and data manipulation, with an active community constantly developing new packages and features. It is a valuable asset for professionals in the fields of data science, statistics, and research.
-
-
