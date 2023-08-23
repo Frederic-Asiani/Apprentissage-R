@@ -115,8 +115,6 @@ save(page_txt, page_html,page_pdf , file = "sherlock.RData")
 # pour importer des fichiers plats en ligne de commande et avec une interface
 # en ligne de commande et via une interface
 
-
-# ---
 ### install readr
 install.packages('readr')
 
@@ -130,7 +128,6 @@ library('readr')
 data <- read_csv('sherlock-holmes-train.csv')
 
 ### Export your result
-
 
 ## installer le package
 install.packages('readxl')
